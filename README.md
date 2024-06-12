@@ -19,7 +19,7 @@ It is capable of parsing recursively at a defined starting path. It will check a
 # Config File
 The configuration of the tool should be very much self explanatory.
 
-## [config]
+### [config]
 **Path where the files to be searched are located**
 
 path = C:\Users\IEUser\Desktop\Handler\TEST\
@@ -42,7 +42,7 @@ zipfile_name = archive.zip
 
 zipfile_password = 123456
 
-## [filetypes]
+### [filetypes]
 
 **File extensions defined here are allowed and will be copied to the "processed" folder.**
 
@@ -62,4 +62,8 @@ remove = []
 
 compress = [".txt",".doc"]
 
+## Required Libraries
+
+- pywin32
+- pyminizip
 
