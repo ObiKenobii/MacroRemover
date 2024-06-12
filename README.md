@@ -5,16 +5,16 @@ It is capable of parsing recursively at a defined starting path. It will check a
 
 # Functionalities
 - The script is capable of removing Office macros using the Win32 API.
-  To do this, the filetype (.doc, .docm, .xls, .xslm) has to be defined under convert in the config.ini
+  To do this, the filetype (".doc", ".docm", ".xls", ".xslm") has to be defined under convert in the config.ini
 
 - It is capable of removing defined files according to a fileending.
-  To do this, the file ending (e.g. .exe) has to be defined under remove in the config.ini
+  To do this, the file ending (e.g. ".exe") has to be defined under remove in the config.ini
 
 - It is capable of just copying filetypes into the processed folder
-  To do this, the file ending (e.g. .dwg) has to be defined under allowed in the config.ini
+  To do this, the file ending (e.g. ".dwg") has to be defined under allowed in the config.ini
 
-- To create a backup copy of files before they are deleted or removed, it is possible to collect them and save them in a archive file with a password.
-  To do this, the file endings (e.g. .exe, .doc, ...) have to be defined under compressed in the config.ini. The password and the filename can be defined there as well.
+- To create a backup copy of the original files before they are deleted or the macros removed, it is possible to collect them and save them in a archive file with a password.
+  To do this, the file endings (e.g. ".exe", ".doc") have to be defined under compressed in the config.ini. The password and the filename can be defined there as well.
 
 # Config File
 The configuration of the tool should be very much self explanatory.
